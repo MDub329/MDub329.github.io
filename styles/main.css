@@ -1,0 +1,28 @@
+/*footer */
+footer {
+	float: clear;
+}
+
+footer p {
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+/* 2 Columns*/
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Header */
+header h1{
+	text-align: center;
+}
