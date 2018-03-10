@@ -5,7 +5,16 @@
 .link{
 	color: white;
 }
-/*footer */
+
+.blocklink{
+	
+}
+
+a:hover, a:focus { 
+    color: green;
+}
+/*f
+ooter */
 footer {
 	float: clear;
 }
@@ -32,5 +41,10 @@ footer p {
 /* Header */
 header h1{
 	text-align: center;
+}
+
+/* img Padding */
+img {
+	padding: 1em;
 }
 
