@@ -24,7 +24,24 @@
 			<P><B><H1>Welcome to my Website!</B></H1></P>
 			<P><H3>I play games and record them sometimes.  Sometimes I post them on the Internet.  Add me on steam and Subscribe to my Youtube.  I play Rocket Leauge, Golf With Friends and CSGO way too much.</H3></P>
 			<h3>I also Stream at Twitch.tv/MDubUSA! Click the twitch icon to head to my page!
-		</Center>
+		</Center>	
+		
+		<TABLE Align="center" Border="0" Width="300">
+			<TR>
+			<center>
+				<div id="twitch-embed"></div>
+				<script src="https://embed.twitch.tv/embed/v1.js"></script>
+				<script type="text/javascript">
+					new Twitch.Embed("twitch-embed", {
+					width: 854,
+					height: 480,
+					channel: "MDubUSA",
+					layout: "video"
+					});
+				</script>
+			</center>
+			</TR>
+			
 			<TABLE>
 				<TR>
 					<Center>
@@ -34,14 +51,11 @@
 					</Center>
 				</TR>
 			</TABLE>
-		
-		
-		<TABLE Align="center" Border="0" Width="300">
 			
 			<TR>
-				<TD>
+				<center>
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/-bhHxwzUucE?list=PLrUEDELcqI7ndZA6kE4esIWCrq3n3oj0u" frameborder="0" allowfullscreen></iframe>
-				</TD>
+				</center>
 			</TR>
 		</TABLE>
 	</Body>
