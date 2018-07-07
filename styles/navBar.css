@@ -38,7 +38,9 @@
     color: black;
 }
 
-
+#topnav {
+	padding-bottom: 1em;
+}
 
 /* The styles for the navigation menu - formatting */
 #topnav ul {
