@@ -12,7 +12,7 @@
 
 #topnav li a {
     display: block;
-    color: white;
+    color: #FFFFFF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -23,7 +23,7 @@
 }
 
 .active {
-    background-color: red;
+    background-color: #FF0000;
 }
 
 
@@ -61,7 +61,7 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-	background-color: white;
+	background-color: #FFFFFF;
 }
 
 .dropdown:hover .dropdown-content {

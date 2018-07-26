@@ -3,7 +3,7 @@
 }
 
 .link{
-	color: white;
+	color: #FFFFFF;
 }
 
 .blocklink{
@@ -11,11 +11,11 @@
 }
 
 .pcpp-part-list-item{
-	color: white;
+	color: #FFFFFF;
 }
 
 a{
-	color: white;  /* Quick fix */
+	color: #FFFFFF;  /* Quick fix */
 }
 a:hover, a:focus { 
     color: green;
