@@ -10,24 +10,24 @@
 	
 }
 
+.pcpp-part-list-item{
+	color: white;
+}
 
-
+a{
+	color: white;  /* Quick fix */
+}
 a:hover, a:focus { 
     color: green;
 }
 /*footer */
-footer {
-	float: clear;
-	bottom: 0;
-	position: relative;
-	width: 100%;
-}
 
 footer p {
 	text-align: center;
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
+
 
 /* 2 Columns*/
 .column {
@@ -51,4 +51,5 @@ header h1{
 img {
 	padding: 1em;
 }
+
 
