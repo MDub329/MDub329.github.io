@@ -44,7 +44,9 @@
     </div>
       </nav>
 </header>
+
     <br><br>
+
     <div class="container mt-5 mb-5">
             <div class="row">
                 <div class="col-md-6 offset-md-3">
@@ -69,6 +71,9 @@
                 </div>
             </div>
         </div>
+
+        <!--- React Testing 
+            <div id="like_button_container"></div> --->
 
 		<hr class="featurette-divider">
 		<div class="d-flex justify-content-center">
@@ -102,6 +107,13 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
-	
+    
+      <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src="js/like_button.js"></script>
   </body>
 </html>
