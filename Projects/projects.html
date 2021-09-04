@@ -21,8 +21,8 @@
   <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <a class="navbar-brand" href="../index.html">Matthew Wells</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
-        aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -55,28 +55,34 @@
     <div class="container marketing">
       <div class="row">
         <div class="col-lg-4">
-          <img class="rounded-circle" src="../images/pcIcon.png" alt="pcIcon" width="140" height="140">
-          <h2>Custom Built PC</h2>
-          <p>Starting in late 2014 I became extremly interested in custom building computers. After using a laptop my
-            entire childhood I decided to jump right in the middle of PC building. Since then I have built, upgraded
-            and troubleshot my way through several iterations of computers.</p>
-          <p><a class="btn btn-secondary" href="https://pcpartpicker.com/b/gfD2FT" role="button">Full Guide &raquo;</a></p>
+          <img class="rounded-circle" src="../images/slapshot.png" alt="Generic placeholder image" width="140"
+            height="140">
+          <h2>Log Parser</h2>
+          <p>I help run a league for a small game called Slapshot: Rebound. This free to play hockey game produces a
+            JSON file after each match that displays the statistics for each player. I wrote a log parser in c# to
+            better visually display these stats so that the data input volunteers could decrese the time needed to enter
+            each games stats. This application essentially cut down the time it took to enter stats from 10 minutes down
+            to 1-2.
+          <p><a class="btn btn-secondary" href="https://github.com/ColtinC/SlapBot" role="button">Parser Github
+              &raquo;</a></p>
         </div>
         <div class="col-lg-4">
-          <img class="rounded-circle" src="../images/codeIcon.png" alt="Generic placeholder image" width="140" height="140">
-          <h2>Misc Projects</h2>
-          <p>I currently have several small projects that pique my interest from time to time. I created a song
-            downloader using python, used a raspbery pi to run an OctoPrint server for my 3d printer and tinker with
-            various arduino projects such as a dog water bowl refiller.</p>
+          <img class="rounded-circle" src="../images/discord.png" alt="pugIcon" width="140" height="140">
+          <h2>Discord Bot</h2>
+          <p>Several years ago a need arose in a small gaming community for a bot to handle third-party matchmaking. I
+            along with another developer in our group started working on a bot that would utilize Discord.py to allow
+            users to queue for a game in discord.</p>
+          <p><a class="btn btn-secondary" href="https://github.com/ColtinC/SlapBot" role="button">Bot Repo &raquo;</a>
+          </p>
         </div>
+
         <div class="col-lg-4">
           <img class="rounded-circle" src="../images/swiftIcon.png" alt="swiftIcon" width="140" height="140">
           <h2>IOS Development</h2>
           <p>Back in 2017 I purchased a macbook to use for school and duel booted windows onto it thinking I would use
             it to work on C# projects. Soon after I started researching IOS development and found out I enjoy building
-            productivity applications. I currently have completed a simply task list application and are working on a
-            Christmas gift orginizaer.</p>
-          <p><a class="btn btn-secondary" href="https://github.com/MDub329" role="button">GitHub &raquo;</a></p>
+            productivity applications.</p>
+          <p><a class="btn btn-secondary" href="https://github.com/MDub329" role="button">My GitHub &raquo;</a></p>
         </div>
       </div>
 
@@ -84,15 +90,20 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">Task List<span class="text-muted"> My first IOS app</span></h2>
-          <p>I set out to create a simple yet effective application that could keep track of tasks. I tinkered around
-            with this and decided to try and add some style instead of a standard white on black color scheme. This is
-            what I came up with!(More pictures in the repository) Check it out on my GitHub Below!</p>
-          <p><a class="btn btn-secondary" href="https://github.com/MDub329/TaskList" role="button">Task List Repo
+          <h2 class="featurette-heading">Discord <span class="text-muted">Pug Bot </span></h2>
+          <p>A friend and I set out to create a simple yet effective application that could handle third-party
+            matchmaking for the game Slapshot: Rebound. This application allows users to queue for a game in discord.
+            Once the queue is full it triggers a draft process that allows the
+            best players to draft their teams. This bot comprises of leaderboards based on wins and losses. Featured in
+            this application is an elo assigned to each player based on goal differential compared to expected outcome
+            of the
+            game.</p>
+          <p><a class="btn btn-secondary" href="https://github.com/ColtinC/SlapBot" role="button">Task List Repo
               &raquo;</a></p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" src="../images/projects/taskimg3.PNG" alt="Generic placeholder image">
+          <img class="featurette-image img-fluid mx-auto" src="../images/projects/pugBotImg1.PNG"
+            alt="Generic placeholder image">
         </div>
       </div>
 
@@ -100,13 +111,16 @@
 
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">PC <span class="text-muted"> Built December 2017</span></h2>
-          <p>For a full breakdown of my entire setup, go visit my post over at PcPartPicker.com. I have details about
-            my entire setup not just the computer and have anwsered a few questions about how/why I did what I did!</p>
-          <p><a class="btn btn-secondary" href="https://pcpartpicker.com/b/gfD2FT" role="button">View Post &raquo;</a></p>
+          <h2 class="featurette-heading">Log Parser <span class="text-muted"> Slapshot</span></h2>
+          <p>For 2+ years I have helped run a league for the games Slapshot and Slapshot: Rebound. Both of these leagues
+            involved tracking stats that are produced from the game. For both games I have created an application that
+            recieves the file contaning the information and visually displays it for the staff memebers to easily and
+            quickly enter the stats into the website.</p>
+          <p><a class="btn btn-secondary" href="https://github.com/MDub329" role="button">View Repositories &raquo;</a>
+          </p>
         </div>
         <div class="col-md-5 order-md-1">
-          <img class="featurette-image img-fluid mx-auto" src="../images/projects/pcimg2.png" alt="Generic placeholder image">
+          <img class="featurette-image img-fluid mx-auto" src="../images/parser.png" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -114,19 +128,22 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">Inventory Tracker<span class="text-muted"> Made for concession stands</span></h2>
+          <h2 class="featurette-heading">Inventory Tracker<span class="text-muted"> Made for concession stands</span>
+          </h2>
           <p>A few years back my mother took a position within my old high school's booster club to manage the
             inventory at the concession stands. After a few months of spending hours sorting through invoices and
             inventory quantites, she asked me to help her out with something. I made a spreadsheet in Excel that did
             all the math for her, so all that was left was to make the final decisions. (The spreadsheet can be
-            downloaded below) After I finished that I decided to make that spreadsheet into an IOS app. This project is
-            a work in progress and can be seen in my Github below.</p>
-          <p><a class="btn btn-secondary" href="https://github.com/MDub329/Concession-Inventory-Tracker" role="button">View
+            downloaded below) After I finished that I decided to make that spreadsheet into an IOS app.</p>
+          <p><a class="btn btn-secondary" href="https://github.com/MDub329/Concession-Inventory-Tracker"
+              role="button">View
               Repo &raquo;</a></p>
-          <p><a class="btn btn-secondary" href="../Data/InvTemp.xlsx" download role="button">Download Spreadsheet</a></p>
+          <p><a class="btn btn-secondary" href="../Data/InvTemp.xlsx" download role="button">Download Spreadsheet</a>
+          </p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" src="../images/projects/invimg5.png" alt="Generic placeholder image">
+          <img class="featurette-image img-fluid mx-auto" src="../images/projects/invimg5.png"
+            alt="Generic placeholder image">
         </div>
       </div>
 
@@ -141,7 +158,8 @@
         <div class="container extraSpace">
           <ul class="centerLinks socialIcons">
             <li style="display:inline-block">
-              <a href="https://www.youtube.com/channel/UCYqkd4EwjEXBsLepjoxKJgA"><img src="../images/youtube.png" alt="YT PNG Icon"></a>
+              <a href="https://www.youtube.com/channel/UCYqkd4EwjEXBsLepjoxKJgA"><img src="../images/youtube.png"
+                  alt="YT PNG Icon"></a>
             </li>
             <li style="display:inline-block">
               <a href="https://www.instagram.com/mdubUSA/"><img src="../images/instagram.png" alt="Insta PNG Icon"></a>
@@ -164,7 +182,8 @@
   <!-- Bootstrap core JavaScript
     ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="../js/bootstrap.min.js"></script>
 </body>
