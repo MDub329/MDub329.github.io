@@ -2,12 +2,13 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Navigation, Home, About, Social, Projects } from "./components";
 import './App.css';
+import './background.css'
 
 function App() {
 
 
   return (
-    <div className="App">
+    <div className="App gradient-background">
       <Router>
         <Navigation />
         <Routes>
