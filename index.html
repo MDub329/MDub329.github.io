@@ -7,6 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="Matthew Wells">
   <link rel="icon" href="images/favicon.ico">
+  <script src="https://kit.fontawesome.com/97cbc233fa.js" crossorigin="anonymous"></script>
 
   <title>Matthew Wells</title>
 
@@ -19,24 +20,7 @@
 <body class="text-center">
 
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-    <header class="masthead mb-auto">
-      <nav class="navbar fixed-top navbar-expand-lg" id="global-nav">
-        <div class="container">
-          <a class="navbar-brand scrollN">Matthew Wells</a>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item"> <a class="nav-link scrollN" href="index.html">Home</a></li>
-              <!-- <li class="nav-item"> <a class="nav-link scrollN" href="social.html">Social</a></li> -->
-              <li class="nav-item"> <a class="nav-link scrollN" href="Projects/projects.html">Projects</a></li>
-            </ul>
-            <ul class="navbar-nav">
-              <li><a class="nav-link scrollN" href="contact.html">About</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+    <div data-shared-navbar data-site-root="" data-active-page="home" data-header-class="masthead mb-auto"></div>
 
     <main class="inner cover">
       <br><br>
@@ -47,28 +31,7 @@
       </p>
     </main>
 
-    <footer class="mastfoot mt-auto">
-      <div class="inner">
-        <div class="container extraSpace">
-          <ul class="centerLinks socialIcons">
-            <!-- <li style="display:inline-block">
-              <a href="https://www.youtube.com/channel/UCYqkd4EwjEXBsLepjoxKJgA"><img src="images/youtube.png"
-                  alt="YT PNG Icon"></a>
-            </li> -->
-            <li style="display:inline-block">
-              <a href="https://www.instagram.com/mdubUSA/"><img src="images/instagram.png" alt="Insta PNG Icon"></a>
-            </li>
-            <li style="display:inline-block">
-              <a href="https://github.com/MDub329"><img src="images/github.png" alt="Github PNG Icon"></a>
-            </li>
-            <li style="display:inline-block">
-              <a href="contact.html"><img src="images/email.png" alt="email PNG Icon"></a>
-            </li>
-          </ul>
-        </div>
-        <p>&copy; 2025 Matthew Wells</p>
-      </div>
-    </footer>
+    <div data-shared-footer data-site-root=""></div>
   </div>
 
 
@@ -79,6 +42,8 @@
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="js/footer.js"></script>
 
 </body>
 

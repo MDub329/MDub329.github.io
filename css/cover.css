@@ -110,6 +110,10 @@ body {
   color: white;
 }
 
+.centerLinks li a {
+    font-size: 1.5rem;
+}
+
 .socialIcons li a img {
     vertical-align: middle;
     padding: 5px;

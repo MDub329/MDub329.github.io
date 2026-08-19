@@ -97,6 +97,10 @@ body .scrollN, body .scrollN:hover {
     }
 }
 
+.centerLinks li a {
+    font-size: 1.5rem;
+}
+
 .socialIcons li a img {
     vertical-align: middle;
     padding: 5px;
